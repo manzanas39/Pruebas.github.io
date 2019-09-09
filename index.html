@@ -6,7 +6,7 @@
 
         <script type="text/javascript">
             function alerta() {
-                //alert('hola mundo!');
+                document.getElementById("demo").innerHTML = "Hola Mexico";
             }
 
 	function myFunction() {
@@ -17,7 +17,7 @@
 
 
     </head>
-    <body>
+    <body onload="myFunction()">
         <section>
             <span onclick="alerta();">Clic aqu&iacute;</span>
         </section>
