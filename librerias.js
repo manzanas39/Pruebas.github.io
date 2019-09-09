@@ -1,5 +1,10 @@
 <script languaje="javascript">
 
-	alert("Hello! I am an alert box!!!");
+	function myFunction() 
+		{
+			document.getElementById("demo").innerHTML = "Hello World!";
+		}
+ 
+	myFunction();
 
 </script>
